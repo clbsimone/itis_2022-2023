@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Scuola {
     private int n_classi;
     private int[] classe;
@@ -69,13 +72,28 @@ public class Scuola {
         return min;
     }
 
+    /* 
     public int[] getClassi()
     {
         return classe;
     }
+    */
 
+    /*
+    public String getClassi()
+    {
+        String s = "";
+        for(int el:classe)
+        {
+            s += el + " ";
+        }
+
+        return s;
+    }
+    */
+    
     public String toString()
     {
-        return "partecipanti: " + tot_partecipanti + "\n" + "media: " + media() + "\n" + "partecipanti minori: " + minimo() +  "\n" + "partecipanti maggiori: " + massimo();
+        return "classi: " + Arrays.toString(classe) + "\n" +"partecipanti: " + tot_partecipanti + "\n" + "media: " + media() + "\n" + "partecipanti minori: " + minimo() +  "\n" + "partecipanti maggiori: " + massimo();
     }
 }
