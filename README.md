@@ -1,2 +1,1 @@
-# informatica-2022-2023
-informatica anno 2022-2023
+# Istituto Tecnico Industriale Statale "Mario Delpozzo" 2022-2023
